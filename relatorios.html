@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilite - Relatórios</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+    <header class="topbar">
+        <h1>Facilite</h1>
+        <div>
+        <button onclick="window.location.href='dashboard.html'">⬅ Voltar</button>
+        <button id="logoutBtn">Sair</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>📊 Relatórios e Indicadores</h2>
+
+        <section class="summary-section">
+        <div class="card">Total de OS: <span id="totalOS">0</span></div>
+        <div class="card">Abertas: <span id="osAbertas">0</span></div>
+        <div class="card">Em andamento: <span id="osAndamento">0</span></div>
+        <div class="card">Concluídas: <span id="osConcluidas">0</span></div>
+        </section>
+
+        <section class="charts">
+        <div class="chart-container">
+            <h3>OS por Setor</h3>
+            <canvas id="graficoSetor"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <h3>OS por Prioridade</h3>
+            <canvas id="graficoPrioridade"></canvas>
+        </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+    </body>
+    </html>

@@ -50,3 +50,188 @@
     text-align: center;
     margin-top: 10px;
     }
+
+    .topbar {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    }
+
+    .topbar h1 {
+    font-size: 1.5em;
+    }
+
+    .topbar button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    .topbar button:hover {
+    background-color: #d11a2a;
+    }
+
+    .dashboard {
+    text-align: center;
+    padding: 30px;
+    }
+
+    .menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    }
+
+    .card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 30px;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .card:hover {
+    transform: translateY(-5px);
+    background-color: #e9f3ff;
+    }
+
+    .container {
+    padding: 20px 40px;
+    }
+
+    .form-section, .list-section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    form {
+    display: grid;
+    gap: 10px;
+    }
+
+    textarea {
+    resize: none;
+    height: 80px;
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    }
+
+    th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    }
+
+    th {
+    background-color: #007bff;
+    color: white;
+    }
+
+    .status-aberta {
+    color: #ff9800;
+    font-weight: bold;
+    }
+
+    .status-andamento {
+    color: #2196f3;
+    font-weight: bold;
+    }
+
+    .status-concluida {
+    color: #4caf50;
+    font-weight: bold;
+    }
+
+    .action-btn {
+    cursor: pointer;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    }
+
+    .btn-andamento {
+    background-color: #2196f3;
+    }
+
+    .btn-concluir {
+    background-color: #4caf50;
+    }
+
+    .btn-excluir {
+    background-color: #f44336;
+    }
+
+    #setorForm input {
+    width: 100%;
+    padding: 8px;
+    }
+
+    #setorTable th {
+    background-color: #007bff;
+    color: white;
+    }
+
+    #usuarioForm input, #usuarioForm select {
+    width: 100%;
+    padding: 8px;
+    }
+
+    #usuarioTable th {
+    background-color: #007bff;
+    color: white;
+    }
+
+    .summary-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    }
+
+    .summary-section .card {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    min-width: 160px;
+    margin: 10px;
+    }
+
+    .charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    }
+
+    .chart-container {
+    width: 400px;
+    max-width: 90%;
+    }
+
+
+
+
+
